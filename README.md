@@ -47,6 +47,7 @@ This project aims to scrape various information from Steam Community website, in
 1. **Run the crawler script**
    ```bash
    python main.py "$game_id" --filtering "$filter" --language "$language" --max_reviews "$max_reviews"
+   Example:
    ```bash
    python main.py 730 --filtering "toprated" --language "english" --max_reviews 2000
    
