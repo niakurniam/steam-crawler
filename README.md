@@ -1,6 +1,6 @@
 # Steam Crawler
 
-**A Python-based crawler to extract data from Steam.**
+**A Python-based crawler to extract data from Steam Community.**
 
 ## Overview
 This project aims to scrape various information from Steam Community website, including:
