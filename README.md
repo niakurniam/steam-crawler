@@ -31,4 +31,22 @@ This project aims to scrape various information from Steam Community website, in
 ## Installation
 1. **Clone the repository:**
    ```bash
-   git clone [invalid URL removed]
+   git clone https://github.com/niakurniam/steam-crawler.git
+2. **Install dependencies**
+   ```bash
+   pip install requests beautifulsoup4 selenium webdriver-manager
+3. **Install WebDriver**
+   * Chrome
+     ```bash
+     webdriver-manager chrome
+   * Firefox
+     ```bash
+     webdriver-manager firefox
+
+## Usage
+1. **Run the crawler script**
+   ```bash
+   python main.py "$game_id" --filtering "$filter" --language "$language" --max_reviews "$max_reviews"
+   ```bash
+   python main.py 730 --filtering "toprated" --language "english" --max_reviews 2000
+   
