@@ -43,7 +43,7 @@ This project aims to scrape various information from Steam Community website, in
      ```bash
      webdriver-manager firefox
 
-## Usage
+## How to Run
 1. **Run the crawler script**
    ```bash
    python main.py "$game_id" --filtering "$filter" --language "$language" --max_reviews "$max_reviews"
